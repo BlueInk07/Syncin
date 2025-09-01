@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Right Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Disk section -->
+  <div class="disk-container">
+    <img src="disk.png" class="rotating-disk" />
+  </div>
+  <div class="disk-container-small">
+    <img src="img 4.jpeg" alt="Small Rotating Disk" class="rotating-disk-small" />
+  </div>
+
+  <!-- Vertical Progress Bar Parallel to Controls -->
+  <div class="vertical-progress-wrapper">
+    <span class="current-time-vertical">0:00</span>
+    <input type="range" orient="vertical" class="progress-vertical" min="0" value="0" max="100" step="0.1">
+    <span class="total-time-vertical">3:45</span>
+  </div>
+
+  <!-- Player Controls -->
+  <div class="icon-panel">
+    <span class="material-icons icon loop" title="Loop">loop</span>
+    <span class="material-icons icon forward" title="Forward">keyboard_double_arrow_right</span>
+    <span class="material-icons icon play-pause" title="Play Pause">play_arrow</span>
+    <span class="material-icons icon backward" title="Backward">keyboard_double_arrow_left</span>
+    <span class="material-icons icon more" title="More">more_vert</span>
+  </div>
+  <div class="lyrics-glassbox">
+    <div class="lyrics-content">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium quo mollitia architecto earum voluptatum
+      quia excepturi molestiae magni commodi totam fugit voluptatibus, laborum porro laboriosam fuga ipsum dicta
+      voluptas consectetur nihil corporis natus assumenda sint. Eaque tenetur, animi ad saepe explicabo sequi, aliquid,
+      excepturi perspiciatis ea minima ipsa dignissimos corrupti. Aut recusandae incidunt totam quas facere nostrum, ab
+      sequi dignissimos ea inventore suscipit earum cupiditate beatae odit tenetur omnis eligendi magnam non rerum. Fuga
+      ipsum similique eius vitae quam. Minima asperiores quia labore quasi odio rerum quae voluptas repellendus
+      obcaecati maxime! Unde, nesciunt facere rerum itaque consequatur atque eius architecto similique impedit error
+      vitae sit, maxime doloremque reprehenderit! Porro explicabo architecto excepturi quasi a adipisci accusantium,
+      magnam quia nulla sunt voluptatibus reiciendis error cum. Dolorum ex omnis quae molestiae, vitae eius minus ea,
+      voluptatibus ab velit totam enim temporibus culpa odio accusamus voluptates animi nihil commodi ducimus, nobis
+      architecto aperiam ullam! Voluptate, numquam perspiciatis tempore beatae ducimus consectetur repellat quasi itaque
+      saepe praesentium error sequi labore laboriosam reiciendis, ex consequuntur? Sequi magni deleniti sapiente, eius
+      recusandae accusamus neque dolorum eos tempore adipisci numquam officiis quos voluptatem quam ut! Porro
+      repudiandae commodi ipsum perspiciatis, molestias harum reprehenderit cupiditate iusto eaque illum. Expedita
+      voluptates deleniti ea temporibus numquam perferendis totam dolore ad unde enim quod sed commodi dicta dolores
+      dolor, repellat eveniet. Dicta reiciendis eaque nihil fugit voluptate rem necessitatibus enim dolorem minima
+      ducimus assumenda perferendis magni suscipit itaque, modi odio quam ipsa maiores qui. Optio sint ipsum inventore
+      laboriosam perspiciatis, voluptatem voluptate, nulla corrupti adipisci odio harum possimus repellendus mollitia
+      iusto consequuntur quas, amet a qui. Nesciunt, explicabo? Illum eligendi fuga dolore repellat nihil sapiente,
+      eveniet fugiat beatae alias vero recusandae voluptate incidunt error reprehenderit illo eos ullam eius aspernatur
+      expedita deleniti minus libero necessitatibus quibusdam. Quaerat veritatis omnis pariatur expedita?
+    </div>
+  </div>
+
+
+  <!-- Floating nav icons above navbar -->
+  <div class="nav-icons-floating">
+    <i class="fa-solid fa-user"></i>
+    <i class="fa-solid fa-house"></i>
+    <i class="fa-solid fa-gear"></i>
+  </div>
+
+  <!-- Right navbar with bg + blur -->
+  <div class="right-navbar">
+    <div class="nav-overlay"></div>
+    <!-- Playlist Section -->
+    <div class="nav-playlists">
+      <div class="playlist">
+        <img src="img 10.jpeg" alt="playlist">
+        <p>Playlist One</p>
+      </div>
+      <div class="playlist">
+        <img src="img 8 (1).jpeg" alt="playlist">
+        <p>Playlist Two</p>
+      </div>
+      <div class="playlist">
+        <img src="img 5.jpeg" alt="playlist">
+        <p>Playlist Three</p>
+      </div>
+      <div class="playlist">
+        <img src="img 9.jpeg" alt="playlist">
+        <p>Playlist Four</p>
+      </div>
+    </div>
+
+    <!-- Add More -->
+    <div class="add-more">
+      <i class="fa-solid fa-plus"></i>
+    </div>
+  </div>
+
+  <!-- Audio source -->
+  <audio id="audio-player" src="your-audio-file.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
