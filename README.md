@@ -12,10 +12,10 @@ Play, pause, skip, and enjoy a custom playlist 🎧
 ---
 
 ## 🏆 Repo Stats
-![Stars](https://img.shields.io/github/stars/BlueInk07/SyncIn-MusicPlayer?style=flat-square)  
-![Forks](https://img.shields.io/github/forks/BlueInk07/SyncIn-MusicPlayer?style=flat-square)  
-![Issues](https://img.shields.io/github/issues/BlueInk07/SyncIn-MusicPlayer)  
-![License](https://img.shields.io/github/license/BlueInk07/SyncIn-MusicPlayer)  
+![Stars](https://img.shields.io/github/stars/BlueInk07/Syncin?style=flat-square)  
+![Forks](https://img.shields.io/github/forks/BlueInk07/Syncin?style=flat-square)  
+![Issues](https://img.shields.io/github/issues/BlueInk07/Syncin)  
+![License](https://img.shields.io/github/license/BlueInk07/Syncin)  
 
 ---
 
