@@ -2,9 +2,8 @@
 ---
 
 # 3️⃣ SyncIn – Music Player  
-🎶 (Cool, badge-heavy modern README with tables)  
 
-```markdown
+markdown
 # 🎶 SyncIn – Music Player  
 
 A sleek & responsive **music player** made using **HTML, CSS, and JavaScript**.  
@@ -12,12 +11,11 @@ Play, pause, skip, and enjoy a custom playlist 🎧
 
 ---
 
-## 🏆 Badges
+## 🏆 Repo Stats
 ![Stars](https://img.shields.io/github/stars/BlueInk07/SyncIn-MusicPlayer?style=flat-square)  
 ![Forks](https://img.shields.io/github/forks/BlueInk07/SyncIn-MusicPlayer?style=flat-square)  
 ![Issues](https://img.shields.io/github/issues/BlueInk07/SyncIn-MusicPlayer)  
-![License](https://img.shields.io/github/license//SyncIn-MusicPlayer)  
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red)
+![License](https://img.shields.io/github/license/BlueInk07/SyncIn-MusicPlayer)  
 
 ---
 
@@ -26,7 +24,6 @@ Play, pause, skip, and enjoy a custom playlist 🎧
 - 📊 Progress bar & seek option  
 - 🔊 Volume control  
 - 📱 Responsive design  
-- 🎨 Clean & modern interface  
 
 ---
 
@@ -41,5 +38,5 @@ Play, pause, skip, and enjoy a custom playlist 🎧
 
 ## ⚡ Installation
 ```bash
-git clone https://github.com/your-username/SyncIn-MusicPlayer.git
+git clone https://github.com/BlueInk07/SyncIn-MusicPlayer.git
 cd SyncIn-MusicPlayer
