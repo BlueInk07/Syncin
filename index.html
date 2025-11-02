@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Right Navbar</title>
+  <!-- <script>
+    function checkWidth() {
+      if (window.innerWidth <= 850 && !window.location.href.includes('mobile')) {
+        window.location.href = "index_mobile.html";
+      } else if (window.innerWidth > 850 && window.location.href.includes('mobile')) {
+        window.location.href = "index.html";
+      }
+    }
+
+    checkWidth();
+    window.addEventListener('resize', checkWidth);
+  </script>
+
+  <script>
+    if (window.innerWidth <= 550) {
+      window.location.href = "index_mobile.html";
+    }
+  </script> -->
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="disk-container">
+    <div class="rotating-disk">
+      <img src="../images/disk.png" alt="Vinyl disk" class="disk-base" />
+      <img src="../images/img 10.jpeg" alt="Cover art" class="disk-center" />
+    </div>
+  </div>
+
+  <div class="vertical-progress-wrapper">
+    <span class="current-time-vertical">0:00</span>
+    <input type="range" orient="vertical" class="progress-vertical" min="0" value="0" max="100" step="0.1">
+    <span class="total-time-vertical">3:45</span>
+  </div>
+
+  <div class="icon-panel">
+    <span class="material-icons icon loop" title="Loop">loop</span>
+    <span class="material-icons icon forward" title="Forward">keyboard_double_arrow_right</span>
+    <span class="material-icons icon play-pause" title="Play Pause">play_arrow</span>
+    <span class="material-icons icon backward" title="Backward">keyboard_double_arrow_left</span>
+    <span class="material-icons icon more" title="More">more_vert</span>
+  </div>
+
+  <div class="lyrics-glassbox">
+    <div class="lyrics-content">
+      🎶 Select a song and let the lyrics flow...
+    </div>
+  </div>
+
+  <div class="nav-icons-floating">
+    <!-- <i class="fa-solid fa-user"></i>
+    <i class="fa-solid fa-house"></i> -->
+    <i class="fa-solid fa-gear"></i>
+  </div>
+
+  <div class="right-navbar">
+    <div class="nav-overlay"></div>
+    <div class="nav-playlists">
+      <div class="playlist">
+        <img src="../images/img 10.jpeg" alt="playlist">
+        <p>Soft melodies </p>
+      </div>
+      <div class="playlist">
+        <img src="../images/img 8 (1).jpeg" alt="playlist">
+        <p>Dreamiies</p>
+      </div>
+      <div class="playlist">
+        <img src="../images/img 5.jpeg" alt="playlist">
+        <p>Chillin</p>
+      </div>
+      <div class="playlist">
+        <img src="../images/img 9.jpeg" alt="playlist">
+        <p>R&B</p>
+      </div>
+    </div>
+
+    <div class="add-more">
+      <i class="fa-solid fa-plus"></i>
+    </div>
+  </div>
+
+  <audio id="audio-player" src="../images/your-audio-file.mp3"></audio>
+  <div class="bottom-navbar"></div>
+  <!-- Background Settings Modal -->
+<div class="bg-modal hidden">
+  <div class="bg-modal-content">
+    <h3>Choose Background</h3>
+    <div class="default-bg-options">
+      <img src="../images/default1.jpeg" class="default-bg" alt="Default 1">
+      <img src="../images/default2.jpeg" class="default-bg" alt="Default 2">
+      <img src="../images/download (23).jpeg" class="default-bg" alt="Default 2">
+    </div>
+    <label class="upload-label">
+      Upload Your Own
+      <input type="file" id="bg-upload" accept="image/*">
+    </label>
+    <div class="theme-toggle">
+  <h4>Theme Glow</h4>
+  <div class="theme-options">
+    <div class="theme-box light">
+      <span>White Glow</span>
+    </div>
+    <div class="theme-box dark">
+      <span>Dark Glow</span>
+    </div>
+  </div>
+</div>
+
+    <button class="close-bg-modal">Close</button>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player UI</title>
+  <link rel="stylesheet" href="style_mobile.css">
+
+  <!-- Icon webkits from your desktop version -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+<body>
+  <div class="navbar">
+    <i class="fa-solid fa-house home-icon"></i>
+  </div>
+
+  <div class="lyrics">
+    <p>Maybe it's the way you say my name<br>
+    Maybe it's the way you play your game<br>
+    But it's so good, I've never known anybody like you<br>
+    But it's so good, I've never dreamed of nobody like you</p>
+  </div>
+ <div class="wave-background">
+  <div class="wave-bar" style="height:40px;"></div>
+  <div class="wave-bar" style="height:55px;"></div>
+  <div class="wave-bar" style="height:65px;"></div>
+  <div class="wave-bar" style="height:45px;"></div>
+  <div class="wave-bar" style="height:70px;"></div>
+  <div class="wave-bar" style="height:50px;"></div>
+  <div class="wave-bar" style="height:60px;"></div>
+  <div class="wave-bar" style="height:40px;"></div>
+  <div class="wave-bar" style="height:55px;"></div>
+  <div class="wave-bar" style="height:70px;"></div>
+  <div class="wave-bar" style="height:40px;"></div>
+  <div class="wave-bar" style="height:55px;"></div>
+  <div class="wave-bar" style="height:65px;"></div>
+  <div class="wave-bar" style="height:45px;"></div>
+  <div class="wave-bar" style="height:70px;"></div>
+  <div class="wave-bar" style="height:50px;"></div>
+  <div class="wave-bar" style="height:60px;"></div>
+  <div class="wave-bar" style="height:40px;"></div>
+  <div class="wave-bar" style="height:55px;"></div>
+  <div class="wave-bar" style="height:70px;"></div>
+  <div class="wave-bar" style="height:40px;"></div>
+  <div class="wave-bar" style="height:55px;"></div>
+  <div class="wave-bar" style="height:65px;"></div>
+</div>
+
+
+
+  <div class="player">
+    <div class="disk">
+      <div class="album-art">
+        <img src="img 4.jpeg" alt="Album Art">
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+      <div class="time">
+        <span>0:25</span>
+        <span>2:25</span>
+      </div>
+
+      <div class="buttons">
+        <button class="material-icons">more_vert</button>
+        <button class="material-icons" id="prev">skip_previous</button>
+        <button class="material-icons" id="play">play_arrow</button>
+        <button class="material-icons" id="next">skip_next</button>
+        <button class="material-icons">repeat</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-icons">
+    <i class="fa-solid fa-gear settings"></i>
+    <i class="fa-solid fa-user user"></i>
+  </div>
+
+  <script src="script_mobile.js"></script>
+</body>
+</html>
