@@ -7,7 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   height: 100vh;
-  background-image: url("../images/download (23).jpeg");
+  background-image: url("images/download (23).jpeg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body {
   top: 10%;
   width: 200px;
   height: 80%;
-  background: url("../images/img 0 (2).jpg") center/cover no-repeat;
+  background: url("images/img 0 (2).jpg") center/cover no-repeat;
   border-left: 2px solid rgba(255,255,255,0.1);
   display: flex;
   flex-direction: column;
