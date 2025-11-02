@@ -113,28 +113,28 @@ let currentSongIndex = 0;
 
 const playlistSongs = {
   0: [
-    { img: '../images/img 11.jpeg', name: 'This is what winter...', artist: 'JVKE', file: '../audios/11.mp3' },
-    { img: '../images/img 12.jpeg', name: 'Blue', artist: 'Yung Kai', file: '../audios/12.mp3' },
-    { img: '../images/img 13.jpeg', name: 'Dandelions', artist: 'Ruth B', file: '../audios/13.mp3' },
-    { img: '../images/img 14.jpeg', name: 'Way back home', artist: 'Shaun', file: '../audios/14.mp3' }
+    { img: 'images/img 11.jpeg', name: 'This is what winter...', artist: 'JVKE', file: 'audios/11.mp3' },
+    { img: 'images/img 12.jpeg', name: 'Blue', artist: 'Yung Kai', file: 'audios/12.mp3' },
+    { img: 'images/img 13.jpeg', name: 'Dandelions', artist: 'Ruth B', file: 'audios/13.mp3' },
+    { img: 'images/img 14.jpeg', name: 'Way back home', artist: 'Shaun', file: 'audios/14.mp3' }
   ],
   1: [
-    { img: '../images/img 15.jpeg', name: 'Say yes to heaven', artist: 'Lana del ray', file: '../audios/15.mp3' },
-    { img: '../images/img 16.jpeg', name: 'Moonlight', artist: 'Kali Uchis', file: '../audios/16.mp3' },
-    { img: '../images/img 17.jpeg', name: 'Cinnamon Girl', artist: 'Lana del ray', file: '../audios/17.mp3' },
-    { img: '../images/img 18.jpeg', name: 'Beanie', artist: 'Chezile', file: '../audios/18.mp3' }
+    { img: 'images/img 15.jpeg', name: 'Say yes to heaven', artist: 'Lana del ray', file: 'audios/15.mp3' },
+    { img: 'images/img 16.jpeg', name: 'Moonlight', artist: 'Kali Uchis', file: 'audios/16.mp3' },
+    { img: 'images/img 17.jpeg', name: 'Cinnamon Girl', artist: 'Lana del ray', file: 'audios/17.mp3' },
+    { img: 'images/img 18.jpeg', name: 'Beanie', artist: 'Chezile', file: 'audios/18.mp3' }
   ],
   2: [
-    { img: '../images/img 19.jpeg', name: 'Sugar Crash!', artist: 'Elly Otto', file: '../audios/19.mp3' },
-    { img: '../images/img 20.jpeg', name: 'One dance(reverb)', artist: 'Drake (feat. Wizkid & Kyla)', file: '../audios/20.mp3' },
-    { img: '../images/img 21.jpeg', name: 'On the floor', artist: 'Jennifer Lopez(feat.Pitbull)', file: '../audios/21.mp3' },
-    { img: '../images/img 22.jpeg', name: 'Savage Love ', artist: 'Jason Darulo', file: '../audios/22.mp3' }
+    { img: 'images/img 19.jpeg', name: 'Sugar Crash!', artist: 'Elly Otto', file: 'audios/19.mp3' },
+    { img: 'images/img 20.jpeg', name: 'One dance(reverb)', artist: 'Drake (feat. Wizkid & Kyla)', file: 'audios/20.mp3' },
+    { img: 'images/img 21.jpeg', name: 'On the floor', artist: 'Jennifer Lopez(feat.Pitbull)', file: 'audios/21.mp3' },
+    { img: 'images/img 22.jpeg', name: 'Savage Love ', artist: 'Jason Darulo', file: 'audios/22.mp3' }
   ],
   3: [
-    { img: '../images/img 23.jpeg', name: 'I was never there', artist: 'The Weeknd', file: '../audios/23.mp3' },
-    { img: '../images/img 24.jpeg', name: 'The Machine', artist: 'Reed Wonder, Aurora Olivas', file: '../audios/24.mp3' },
-    { img: '../images/img 25.jpeg', name: 'YAD', artist: 'Vanna Rainelle ', file: '../audios/25.mp3' },
-    { img: '../images/img 26.jpeg', name: 'Under the influence', artist: 'Chris Brown', file: '../audios/26.mp3' }
+    { img: 'images/img 23.jpeg', name: 'I was never there', artist: 'The Weeknd', file: 'audios/23.mp3' },
+    { img: 'images/img 24.jpeg', name: 'The Machine', artist: 'Reed Wonder, Aurora Olivas', file: 'audios/24.mp3' },
+    { img: 'images/img 25.jpeg', name: 'YAD', artist: 'Vanna Rainelle ', file: 'audios/25.mp3' },
+    { img: 'images/img 26.jpeg', name: 'Under the influence', artist: 'Chris Brown', file: 'audios/26.mp3' }
   ]
 };
 
@@ -184,7 +184,7 @@ async function loadLyrics(index) {
   if (!songNumber) return;
 
   try {
-    const response = await fetch(`../lyrics/${songNumber}.txt`);
+    const response = await fetch(`lyrics/${songNumber}.txt`);
     if (!response.ok) throw new Error('Lyrics not found');
     const text = await response.text();
     displayLyricsWithAura(text);
